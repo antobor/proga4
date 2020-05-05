@@ -6,6 +6,9 @@ int main()
 {
     vector <CIntN*> data;
     data = F("input.txt");
+	if (data.size()==0){
+        return 0;
+    }
     for (size_t i=0;i<data.size();i++){
         data[i]->output();
     }
