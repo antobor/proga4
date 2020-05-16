@@ -16,5 +16,5 @@ class CIntN1: public CIntN{
         int output();
         CIntN1 (int l,string number,string f="") : CIntN(l,number,f){};
         CIntN1 (int l) : CIntN(l){};
-        CIntN1 (const CIntN1& other) : CIntN(other){};
+        CIntN1 (const CIntN& other) : CIntN(other){};
 };
